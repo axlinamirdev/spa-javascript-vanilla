@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <title>Floristería La Reina</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body class="text-center">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+              <div class="inner">
+                <h3 class="masthead-brand"><img src="img/logo.png" class="img-responsive" width="60px" height="60px"></h3>
+                <nav class="nav nav-masthead justify-content-center">
+                  <button class="nav-link active"  onclick="router.loadRoute('')">Home</button>
+                  <button class="nav-link"  onclick="router.loadRoute('about')">Acerca de</button>
+                  <button class="nav-link"  onclick="router.loadRoute('contacto')">Contacto</button>
+                </nav>
+              </div>
+            </header>
+  
+            <main role="main" class="inner cover" data-router>
+              <h1 class="cover-heading">Cover your page.</h1>
+              <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+              <p class="lead">
+                <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+              </p>
+            </main>
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <p>Desarrollado por <a href="https://twitter.com/mdo">@axlina90</a>.</p>
+                </div>
+            </footer>
+      </div>
+        <script src="./router.js"></script>
+        <script src="./routes.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
